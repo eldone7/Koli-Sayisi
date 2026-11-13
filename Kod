@@ -1,0 +1,9 @@
+urun = int(input("Elinizdeki ürün sayısını giriniz: "))
+koli = int(input("Elinizdeki kolilerin kaçar tane ürün aldığını yazınız "))
+
+koli_sayisi = urun//koli
+artan_urun = urun%koli
+if artan_urun != 0:
+   print(koli_sayisi+1)
+else:
+  print(koli_sayisi)
